@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Soil Testing Equipment",
+        "category": "Soil Testing",
+        "description": "Complete equipment range for soil testing, compaction, density and strength analysis.",
+        "image": "https://www.aticoindia.com/uploads/product_images/364807liquid_limit_cone_penetrometer_automatic01-removebg-preview.png"
+    },
+    {
+        "id": 2,
+        "name": "Concrete Testing Equipment",
+        "category": "Concrete Testing",
+        "description": "Equipment for concrete strength, workability and quality testing.",
+        "image": "https://sunlabtech.com/wp-content/uploads/2021/07/Digital-Compression-Testing-Machine-IS%E2%80%8B.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Compression Testing Machine",
+        "category": "Strength Testing",
+        "description": "Heavy-duty machine for testing compressive strength of construction materials.",
+        "image": "https://sunlabtech.com/wp-content/uploads/2018/08/tensile-strength-testing-machine.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Universal Testing Machine",
+        "category": "Material Testing",
+        "description": "Testing solution for tensile, compression and material strength.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Three_point_flexural_test.jpg"
+    }
+]

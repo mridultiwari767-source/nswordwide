@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+}
+
+.admin-header {
+    background: #102a43;
+    color: white;
+    padding: 20px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header h1 {
+    font-size: 24px;
+}
+
+.admin-header span {
+    font-size: 16px;
+}
+
+.container {
+    width: 95%;
+    max-width: 1400px;
+    margin: 40px auto;
+}
+
+.dashboard-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.dashboard-top h2 {
+    margin-bottom: 8px;
+}
+
+.dashboard-top p {
+    color: #666;
+}
+
+#refreshBtn {
+    border: none;
+    background: #102a43;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#refreshBtn:hover {
+    opacity: 0.9;
+}
+
+.stats {
+    margin-bottom: 25px;
+}
+
+.stat-box {
+    background: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.stat-box h3 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.stat-box p {
+    color: #666;
+}
+
+.table-wrapper {
+    background: white;
+    border-radius: 10px;
+    overflow-x: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #102a43;
+    color: white;
+}
+
+tr:hover {
+    background: #f7f7f7;
+}
+
+@media (max-width: 700px) {
+
+    .admin-header {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+    }
+
+    .container {
+        width: 92%;
+    }
+
+    .dashboard-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+}
+/* SEARCH */
+
+.search-box {
+    background: white;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+#searchInput {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+#searchInput:focus {
+    border-color: #102a43;
+}
+
+
+/* ACTION BUTTONS */
+
+.actions {
+    white-space: nowrap;
+}
+
+.actions a,
+.actions button {
+    display: inline-block;
+    padding: 7px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+/* CALL */
+
+.call-btn {
+    background: #2563eb;
+}
+
+
+/* WHATSAPP */
+
+.whatsapp-btn {
+    background: #16a34a;
+}
+
+
+/* DELETE */
+
+.delete-btn {
+    background: #dc2626;
+}
+
+.delete-btn:hover {
+    opacity: 0.85;
+}
+/* ================================
+   LOGOUT BUTTON - OLD STYLE
+================================ */
+
+.admin-header {
+    position: relative;
+}
+
+#logoutBtn {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+
+    padding: 10px 18px;
+
+    background: #dc2626;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#logoutBtn:hover {
+    background: #b91c1c;
+}
